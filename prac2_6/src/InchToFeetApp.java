@@ -5,13 +5,16 @@
 import javax.swing.JOptionPane;
 public class InchToFeetApp {
 
-    public static void main(String[] args)
-    {
+  public int getNum(){
+
+      String num;
+      int num2;
+      num = JOptionPane.showInputDialog("Enter inches");
+      num2 = Integer.parseInt(num);
+      return num2;
 
 
 
-
-
-    }
+  }
 
 }
